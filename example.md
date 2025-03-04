@@ -1,26 +1,19 @@
-# Title 1
-## Subtitle 1
-This is the content for the first section. It contains some **bold text**, *italic text*, and a [link](https://example.com).
+# Preghiera per la Pace
+## Invocazione alla Madonna
+Signore, dona a noi la pace nel cuore e nel mondo. **Ave Maria**, piena di grazia, prega per noi e guida i nostri passi verso la serenità e la giustizia. *In Te confidiamo, Madre nostra.*
 
 ---
 
-# Title 2
-## Subtitle 2
-This section talks about something else. Here’s an unordered list:
-- Item 1
-- Item 2
-- Item 3
+# Benedizione per la Famiglia
+## Protezione Divina
+In questa casa, ti chiediamo, Signore, di benedire ogni cuore. *Pater Noster*, che Tu possa illuminare la nostra vita familiare e proteggerci sempre sotto il Tuo manto. Con fiducia ci rivolgiamo a Te, perché Tu sei il nostro rifugio e la nostra forza.
 
-It also has a numbered list:
-1. Step 1
-2. Step 2
-3. Step 3
+- Benedici ogni membro della famiglia
+- Proteggi la nostra casa da ogni male
+- Concedi salute, amore e pace in abbondanza
 
 ---
 
-# Title 3
-## Subtitle 3
-This section includes some code:
-```js
-const hello = "world";
-console.log(hello);
+# Preghiera di Speranza
+## Affidamento a Dio
+O Signore, nella Tua infinita misericordia, *concedici la speranza* che solo Tu puoi donare. **Crediamo in Te**, nostro rifugio e salvezza. In ogni prova che attraversiamo, sia la Tua luce a guidarci.

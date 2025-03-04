@@ -48,6 +48,9 @@ const showContent = (section) => {
 };
 
 document.getElementById('load-btn').addEventListener('click', async () => {
+    const loadingElement = document.getElementById('loading');
+    loadingElement.classList.remove('hidden'); // Show loading message
     const sections = await fetchContent('https://raw.githubusercontent.com/interestingStuffs/PrayerApp/refs/heads/main/example.md'); // Change this URL to your actual file source
     renderButtons(sections);
+    loadingElement.classList.add('hidden'); // Hide loading message
 });

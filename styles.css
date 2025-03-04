@@ -45,6 +45,16 @@ button:hover {
     background-color: #003d7a; /* Even darker blue for hover */
 }
 
+.hidden {
+    display: none;
+}
+
+#loading {
+    margin: 20px;
+    font-size: 16px;
+    color: #0056b3;
+}
+
 #buttons-container button {
     width: 200px;
     text-align: left;
@@ -64,7 +74,6 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 #content {
     max-width: 800px;
     margin: 20px auto;
@@ -72,11 +81,6 @@ button:hover {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    #content:empty {
-    display: none;
-}
-
-
 }
 
 h1, h2 {

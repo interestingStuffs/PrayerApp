@@ -38,6 +38,7 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -66,6 +67,12 @@ button:hover {
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#buttons-container button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #content {

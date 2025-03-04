@@ -46,14 +46,7 @@ const showContent = (section) => {
     contentContainer.innerHTML = marked.parse(section.content); // Using 'marked' library for Markdown rendering
 };
 
-const goBack = () => {
-    document.getElementById('main-page').classList.remove('hidden');
-    document.getElementById('content-page').classList.add('hidden');
-};
-
 document.getElementById('load-btn').addEventListener('click', async () => {
     const sections = await fetchContent('https://raw.githubusercontent.com/interestingStuffs/PrayerApp/refs/heads/main/example.md'); // Change this URL to your actual file source
     renderButtons(sections);
 });
-
-document.getElementById('back-btn').addEventListener('click', goBack);

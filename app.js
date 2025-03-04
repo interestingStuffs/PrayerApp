@@ -1,7 +1,8 @@
-// Modular functions
 const fetchContent = async (source) => {
     try {
-        const response = await fetch(source);
+        // Add a cache-busting query parameter
+        const cacheBuster = `?t=${new Date().getTime()}`;
+        const response = await fetch(source + cacheBuster);
         const text = await response.text();
         return parseMarkdown(text);
     } catch (error) {

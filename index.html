@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img id="logo" src="logo.png" alt="Logo">
+            <h1>Markdown Viewer</h1>
+        </header>
+
+        <div id="main-page">
+            <button id="load-btn">Load Content</button>
+            <div id="buttons-container"></div>
+        </div>
+
+        <div id="content-page" class="hidden">
+            <button id="back-btn">Back to Main</button>
+            <div id="content"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+</html>

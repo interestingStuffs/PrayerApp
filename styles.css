@@ -34,7 +34,7 @@ button {
     margin: 10px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #0056b3; /* Darker blue */
     color: white;
     border: none;
     border-radius: 5px;
@@ -42,18 +42,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
-}
-
-.hidden {
-    display: none;
-}
-
-#buttons-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    background-color: #003d7a; /* Even darker blue for hover */
 }
 
 #buttons-container button {
@@ -64,16 +53,17 @@ button:hover {
     align-items: flex-start;
     padding: 15px;
     font-size: 14px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    background-color: #007bff; /* Darker background for buttons */
+    border: 1px solid #0070b9; /* Slightly darker border */
     border-radius: 5px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 #buttons-container button:hover {
-    background-color: #e0e0e0;
+    background-color: #0056b3; /* Darker blue for hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 #content {
     max-width: 800px;
@@ -82,6 +72,11 @@ button:hover {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    #content:empty {
+    display: none;
+}
+
+
 }
 
 h1, h2 {
